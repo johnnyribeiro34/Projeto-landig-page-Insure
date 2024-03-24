@@ -1,0 +1,55 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+    gap: 30px;
+align-items: center;
+
+}
+
+.btn{
+    width: 130px;
+    height: 35px;
+    border: solid 1px;
+}
+
+.lista, .btn  {
+    cursor: pointer;
+   
+}
+
+.item :hover{
+    color: black;
+}
+
+.btn:hover{
+background-color: #000;
+color: #fff;
+}
+
+a{
+    color:  hsl(273, 4%, 51%);
+    font-weight: 500;
+}
+
+/* ###################################### */
+
+.container-01{
+    background-color: blueviolet;
+    height: 350px; 
+}
+
+.conteudo-01{
+    background-color: red;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+    padding: 40px;
+}
